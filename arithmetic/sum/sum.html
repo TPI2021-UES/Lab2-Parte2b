@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>
-            Suma
-        </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <link rel = "stylesheet" href = "../../styles/navbar.css" />
-    </head>
-    <body>
-        <header class = "header">
-            <nav class = "navbar">
-                <ul class = "navbar__list navbar__list--decorator">
-                    <li>
-                        <a class = "navbar__link" href = "../../index.html">Inicio</a>
-                    </li>
-                    <li class = "navbar__li--first">
-                        <a class = "navbar__link" href = "../arithmetic.html">Aritmetica</a>
-                        <ul class = "navbar__list--decorator navbar__list--display">
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "./sum.html">Suma</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href="../subtraction/subtraction.html">Resta</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../multiplication/multiplication.html">Multiplicacion</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../division/division.html">Division</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class = "navbar__li--second">
-                        <a class = "navbar__link" href = "../../geometry/geometry.html">Geometria</a>
-                        <ul class = "navbar__list--decorator navbar__list--display">
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Suma</h1>
-            <p>
-                La suma es una de las operaciones básicas de la aritmética que consiste en reunir dos o más cifras en una sola.
-                Esta operación elemental suele realizarse con elementos que pertenecen a un mismo conjunto, es decir, que son similares o iguales entre sí.
 
-                Por ejemplo, si estamos en un salón de clases, podemos sumar los lapiceros de los estudiantes.
+<head>
+    <title>
+        Suma
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/general-style.css" />
+    <link rel="stylesheet" href="../../styles/main-tag-style.css" />
 
-                Sin embargo, es factible llevar la suma a un nivel más abstracto donde no se detalla en la operación qué tipo de elementos se están sumando.           </p>
-            <h2>Propiedades de la Suma</h2>
-            <dl>
-                <dt><b>Conmutativa</b></dt>
-                <dd><i>El orden de los sumandos (los números que se suman) no altera el resultado</i></dd>
-                <dt><b>Asociativa</b></dt>
-                <dd><i>El resultado de una suma no varía si se reemplazan algunos de los sumandos por la suma de estos.</i></dd>
-                <dt><b>Disociativa</b></dt>
-                <dd><i>Es la otra cara de la propiedad asociativa. Uno de los sumandos puede descomponerse y el resultado es el mismo.</i></dd>
-                <dt><b>Distributiva</b></dt>
-                <dd><i> La suma de dos o más números multiplicada por un tercer número es igual a la suma de cada uno de estos sumandos multiplicados por ese mismo tercer número.</i></dd>
-            </dl>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/E2MsDCSkxZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </main>
-        <div  class = "up" id = "toUp">
-            <img class = "up__icon"src = "../../images/icon-up-white.svg" alt = "icon for up" />
+    <!-- Inicio de Fuente: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- FIN -->
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list navbar__list--decorator">
+                <li>
+                    <a class="navbar__link" href="../../index.html">Inicio</a>
+                </li>
+                <li class="navbar__li--first">
+                    <a class="navbar__link" href="../arithmetic.html">Aritmetica</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="./sum.html">Suma</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../subtraction/subtraction.html">Resta</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../multiplication/multiplication.html">Multiplicacion</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../division/division.html">Division</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__li--second">
+                    <a class="navbar__link" href="../../geometry/geometry.html">Geometria</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Suma</h1>
+        <br>
+        <p>
+            La suma es una de las operaciones básicas de la aritmética que consiste en reunir dos o más cifras en una
+            sola.
+            Esta operación elemental suele realizarse con elementos que pertenecen a un mismo conjunto, es decir, que
+            son similares o iguales entre sí.
+
+            Por ejemplo, si estamos en un salón de clases, podemos sumar los lapiceros de los estudiantes.
+
+            Sin embargo, es factible llevar la suma a un nivel más abstracto donde no se detalla en la operación qué
+            tipo de elementos se están sumando. </p>
+        <br>
+        <h2>Propiedades de la Suma</h2>
+        <br>
+        <dl>
+            <dt><b>Conmutativa</b></dt>
+            <dd><i>El orden de los sumandos (los números que se suman) no altera el resultado</i></dd>
+            <dt><b>Asociativa</b></dt>
+            <dd><i>El resultado de una suma no varía si se reemplazan algunos de los sumandos por la suma de estos.</i>
+            </dd>
+            <dt><b>Disociativa</b></dt>
+            <dd><i>Es la otra cara de la propiedad asociativa. Uno de los sumandos puede descomponerse y el resultado es
+                    el mismo.</i></dd>
+            <dt><b>Distributiva</b></dt>
+            <dd><i> La suma de dos o más números multiplicada por un tercer número es igual a la suma de cada uno de
+                    estos sumandos multiplicados por ese mismo tercer número.</i></dd>
+        </dl>
+        <br>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/E2MsDCSkxZ4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-    </body>
-    <script src = "../../js/index.js"></script>
+    </main>
+    <div class="up" id="toUp">
+        <img class="up__icon" src="../../images/icon-up-white.svg" alt="icon for up" />
+    </div>
+</body>
+<script src="../../js/index.js"></script>
+
 </html>

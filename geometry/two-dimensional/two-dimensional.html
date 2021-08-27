@@ -1,120 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>
-            Bidimensional
-        </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <link rel = "stylesheet" href = "../../styles/navbar.css" />
-        <link rel = "stylesheet" href = "../../styles/two-dimensional.css" />
-    </head>
-    <body>
-        <header class = "header">
-            <nav class = "navbar">
-                <ul class = "navbar__list navbar__list--decorator">
-                    <li>
-                        <a class = "navbar__link" href = "../../index.html">Inicio</a>
-                    </li>
-                    <li class = "navbar__li--first">
-                        <a class = "navbar__link" href = "../../arithmetic/arithmetic.html">Aritmetica</a>
-                        <ul class = "navbar__list--decorator navbar__list--display">
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../arithmetic/sum/sum.html">Suma</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href="../../arithmetic/subtraction/subtraction.html">Resta</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../arithmetic/multiplication//multiplication.html">Multiplicacion</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../arithmetic/division/division.html">Division</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class = "navbar__li--second">
-                        <a class = "navbar__link" href = "../geometry.html">Geometria</a>
-                        <ul class = "navbar__list--decorator navbar__list--display">
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "./two-dimensional.html">Bidimensional</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../three-dimensional/three-dimensional.html">Tridimensional</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Bidimensional</h1>
-            <p>
-                El adjetivo bidimensional se utiliza para calificar a aquello que tiene dos dimensiones (2D). Un cuerpo que se proyecta a lo largo y a lo ancho, por ejemplo, cuenta con dos dimensiones. En cambio, si también tiene profundidad, se trata de un objeto con tres dimensiones (3D) y recibe el calificativo de tridimensional.
 
-                Por lo general las dimensiones se definen a partir de la cantidad mínima de coordenadas que se necesitan para la especificación de un punto cualquiera en ella. De este modo, podemos afirmar que una línea es unidimensional: alcanza una sola coordenada para ubicar un punto.
-            </p>
-            
-            <table style = "border-collapse:collapse; border:1px solid; width:100%">
-                <caption>Figuras Geometricas de dos dimensiones</caption>
-                <thead>
-                    <tr>
-                        <th rowspan="2">
-                            Numero:
-                        </th>
-                        <th rowspan="2">
-                            Figura
-                        </th>
-                        <th colspan="2">
-                            Formulas
-                        </th>
-                    </tr>
-                    <tr>
-                        <th>Perimetro</th>
-                        <th>Area</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td><img src = "../../images/cuadrado.png" alt = "cuadrado" class = "size-images"/></td>
-                        <td>
-                            <i>P = 4*l</i>
-                        </td>
-                        <td>
-                            <i>A = l*l</i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td><img src = "../../images/rectangulo.png" alt = "rectangulo" class = "size-images" /></td>
-                        <td>
-                            <i>P = (2*a) + (2*b)</i>
-                        </td>
-                        <td>
-                            <i>A = a*b</i>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td><img src = "../../images/triangulo.png" alt = "triangulo" class = "size-images" /></td>
-                        <td>
-                            <i>P = a + b + c</i>
-                        </td>
-                        <td>
-                            <i>A = (b*h)/2</i>
-                        </td>
-                    </tr>
-                    
-                </tbody>
-            </table>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/o13ccY1t0vk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </main>
-        <div  class = "up" id = "toUp">
-            <img class = "up__icon"src = "../../images/icon-up-white.svg" alt = "icon for up" />
+<head>
+    <title>
+        Bidimensional
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/two-dimensional.css" />
+    <link rel="stylesheet" href="../../styles/general-style.css" />
+    <link rel="stylesheet" href="../../styles/main-tag-style.css" />
+
+    <!-- Inicio de Fuente: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- FIN -->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list navbar__list--decorator">
+                <li>
+                    <a class="navbar__link" href="../../index.html">Inicio</a>
+                </li>
+                <li class="navbar__li--first">
+                    <a class="navbar__link" href="../../arithmetic/arithmetic.html">Aritmetica</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../../arithmetic/sum/sum.html">Suma</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../../arithmetic/subtraction/subtraction.html">Resta</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../arithmetic/multiplication/multiplication.html">Multiplicacion</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../../arithmetic/division/division.html">Division</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__li--second">
+                    <a class="navbar__link" href="../geometry.html">Geometria</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="./two-dimensional.html">Bidimensional</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../three-dimensional/three-dimensional.html">Tridimensional</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bidimensional</h1>
+        <br>
+        <p>
+            El adjetivo bidimensional se utiliza para calificar a aquello que tiene dos dimensiones (2D). Un cuerpo que
+            se proyecta a lo largo y a lo ancho, por ejemplo, cuenta con dos dimensiones. En cambio, si también tiene
+            profundidad, se trata de un objeto con tres dimensiones (3D) y recibe el calificativo de tridimensional.
+
+            Por lo general las dimensiones se definen a partir de la cantidad mínima de coordenadas que se necesitan
+            para la especificación de un punto cualquiera en ella. De este modo, podemos afirmar que una línea es
+            unidimensional: alcanza una sola coordenada para ubicar un punto.
+        </p>
+        <br>
+        <table style="border-collapse:collapse; border:1px solid; width:100%">
+            <caption>Figuras Geometricas de dos dimensiones</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">
+                        Numero:
+                    </th>
+                    <th rowspan="2">
+                        Figura
+                    </th>
+                    <th colspan="2">
+                        Formulas
+                    </th>
+                </tr>
+                <tr>
+                    <th>Perimetro</th>
+                    <th>Area</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="../../images/cuadrado.png" alt="cuadrado" class="size-images" /></td>
+                    <td>
+                        <i>P = 4*l</i>
+                    </td>
+                    <td>
+                        <i>A = l*l</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="../../images/rectangulo.png" alt="rectangulo" class="size-images" /></td>
+                    <td>
+                        <i>P = (2*a) + (2*b)</i>
+                    </td>
+                    <td>
+                        <i>A = a*b</i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="../../images/triangulo.png" alt="triangulo" class="size-images" /></td>
+                    <td>
+                        <i>P = a + b + c</i>
+                    </td>
+                    <td>
+                        <i>A = (b*h)/2</i>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/o13ccY1t0vk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-    </body>
-    <script src = "../../js/index.js"></script>
+    </main>
+    <div class="up" id="toUp">
+        <img class="up__icon" src="../../images/icon-up-white.svg" alt="icon for up" />
+    </div>
+</body>
+<script src="../../js/index.js"></script>
+
 </html>

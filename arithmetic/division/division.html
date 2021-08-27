@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>
-            Division
-        </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <link rel = "stylesheet" href = "../../styles/navbar.css" />
-    </head>
-        
-    <body>
-        <header class = "header">
-            <nav class = "navbar">
-                <ul class = "navbar__list navbar__list--decorator">
-                    <li>
-                        <a class = "navbar__link" href = "../../index.html">Inicio</a>
-                    </li>
-                    <li class = "navbar__li--first">
-                        <a class = "navbar__link" href = "../arithmetic.html">Aritmetica</a>
-                        <ul class = "navbar__list--decorator navbar__list--display">
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../sum/sum.html">Suma</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href="../subtraction/subtraction.html">Resta</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../multiplication/multiplication.html">Multiplicacion</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "./division.html">Division</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class = "navbar__li--second">
-                        <a class = "navbar__link" href = "../../geometry/geometry.html">Geometria</a>
-                        <ul class = "navbar__list--decorator navbar__list--display">
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
-                            </li>
-                            <li class = "navbar__li--sublist">
-                                <a class = "navbar__link" href = "../../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-       <main>
-            <h1>Division</h1>
-            <p>
-La división es aquella operación matemática mediante la cual se trata de descomponer un número, al que denominaremos dividendo, en tantas partes como así lo indique otro número, al que llamaremos divisor.
-            </p>
-            <h2>Propiedades de la Division</h2>
-            <dl>
-                <dt><b>No Conmutativa</b></dt>
-                <dd><i>Esto quiere decir que, a diferencia de lo que ocurre en la multiplicación, el orden de los factores sí altera el producto. Es decir, 54 entre 9 no genera el mismo cociente que si dividiésemos 9 entre 54.</i></dd>
-                <dt><b>Distribuir entre uno</b></dt>
-                <dd><i>Cualquier número dividido entre uno da como resultado el mismo número.</i></dd>
-                <dt><b>Fracciones equivalentes</b></dt>
-                <dd><i>Si a÷b=c÷d, entonces también se cumplirá que a×d=c×b.</i></dd>
-            </dl>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/mTuBPFhyen0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </main>
-        <div  class = "up" id = "toUp">
-            <img class = "up__icon"src = "../../images/icon-up-white.svg" alt = "icon for up" />
+
+<head>
+    <title>
+        Division
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/general-style.css" />
+    <link rel="stylesheet" href="../../styles/main-tag-style.css" />
+
+    <!-- Inicio de Fuente: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- FIN -->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list navbar__list--decorator">
+                <li>
+                    <a class="navbar__link" href="../../index.html">Inicio</a>
+                </li>
+                <li class="navbar__li--first">
+                    <a class="navbar__link" href="../arithmetic.html">Aritmetica</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../sum/sum.html">Suma</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../subtraction/subtraction.html">Resta</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../multiplication/multiplication.html">Multiplicacion</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="./division.html">Division</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__li--second">
+                    <a class="navbar__link" href="../../geometry/geometry.html">Geometria</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Division</h1>
+        <br>
+        <p>
+            La división es aquella operación matemática mediante la cual se trata de descomponer un número, al que
+            denominaremos dividendo, en tantas partes como así lo indique otro número, al que llamaremos divisor.
+        </p>
+        <br>
+        <h2>Propiedades de la Division</h2>
+        <br>
+        <dl>
+            <dt><b>No Conmutativa</b></dt>
+            <dd><i>Esto quiere decir que, a diferencia de lo que ocurre en la multiplicación, el orden de los factores
+                    sí altera el producto. Es decir, 54 entre 9 no genera el mismo cociente que si dividiésemos 9 entre
+                    54.</i></dd>
+            <dt><b>Distribuir entre uno</b></dt>
+            <dd><i>Cualquier número dividido entre uno da como resultado el mismo número.</i></dd>
+            <dt><b>Fracciones equivalentes</b></dt>
+            <dd><i>Si a÷b=c÷d, entonces también se cumplirá que a×d=c×b.</i></dd>
+        </dl>
+        <br>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mTuBPFhyen0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-    </body>
-    <script src = "../../js/index.js"></script>
+    </main>
+    <div class="up" id="toUp">
+        <img class="up__icon" src="../../images/icon-up-white.svg" alt="icon for up" />
+    </div>
+</body>
+<script src="../../js/index.js"></script>
+
 </html>
