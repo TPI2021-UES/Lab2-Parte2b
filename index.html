@@ -5,23 +5,27 @@
             Aritmetica
         </title>
         <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
+        <!--agregen sus nombres en el meta author-->
+        <meta name = "author" content = "Jason Saul Martinez Argueta, José Giovanni Toruño Cruz" />
         <meta name = "keywords" content = "operaciones, suma, resta, multiplicacion, esfera, cilindro, cono" />
         <meta name = "description" content = "Aritmetica Geometria" />
-        <link rel = "stylesheet" href = "./styles/index.css" />
+        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="shortcut icon" href="./images/icono.png" type="image">
     </head>
         
     <body>
-        <main>
-            <h1>Aritmetica y Geometria</h1>
-            <p>En este sitio web encontrara de forma general que es la Aritmetica y Geometria asi como tambien algunas operaciones que se pueden realizar con la Aritmetica y algunas figuras de la geometria tanto de dos dimensiones como de 3 dimensiones y sus calculos basicos correspondientes</p>
-        </main>
-
+        <header>
+            <img src="./images/logo.png" alt="Logo">
+            <main>
+                <h1>Aritmetica y Geometria</h1>
+                <p>En este sitio web encontrara de forma general que es la Aritmetica y Geometria asi como tambien algunas operaciones que se pueden realizar con la Aritmetica y algunas figuras de la geometria tanto de dos dimensiones como de 3 dimensiones y sus calculos basicos correspondientes</p>
+            </main>
+        </header>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li>
                     <a href = "./arithmetic/arithmetic.html">Aritmetica</a>
-                    <ul>
+                    <ul class="aritmetica">
                         <li>
                             <a href = "./arithmetic/sum/sum.html">Suma</a>
                         </li>
@@ -38,7 +42,7 @@
                 </li>
                 <li>
                     <a href = "./geometry/geometry.html">Geometria</a>
-                    <ul>
+                    <ul class="geometria">
                         <li>
                             <a href = "./geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
                         </li>
@@ -53,5 +57,6 @@
             <img class = "up__icon"src = "../images/icon-up-white.svg" alt = "icon for up" />
         </div>
     </body>
+    <footer></footer>
     <script src = "./js/index.js"></script>
 </html>
