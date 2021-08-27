@@ -6,12 +6,46 @@
         </title>
         <meta charset = "UTF-8" />
         <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <link rel = "stylesheet" href = "../../styles/index.css" />
+        <link rel = "stylesheet" href = "../../styles/navbar.css" />
+        <link rel = "stylesheet" href = "../../styles/three-dimensional.css" />
     </head>
     <body>
-        <header>
-            <a href = "../../index.html">Inicio</a>
-            <a href = "../geometry.html">Geometria</a>
+        <header class = "header">
+            <nav class = "navbar">
+                <ul class = "navbar__list navbar__list--decorator">
+                    <li>
+                        <a class = "navbar__link" href = "../../index.html">Inicio</a>
+                    </li>
+                    <li class = "navbar__li--first">
+                        <a class = "navbar__link" href = "../../arithmetic/arithmetic.html">Aritmetica</a>
+                        <ul class = "navbar__list--decorator navbar__list--display">
+                            <li class = "navbar__li--sublist">
+                                <a class = "navbar__link" href = "../../arithmetic/sum/sum.html">Suma</a>
+                            </li>
+                            <li class = "navbar__li--sublist">
+                                <a class = "navbar__link" href="../../arithmetic/subtraction/subtraction.html">Resta</a>
+                            </li>
+                            <li class = "navbar__li--sublist">
+                                <a class = "navbar__link" href = "../../arithmetic/multiplication//multiplication.html">Multiplicacion</a>
+                            </li>
+                            <li class = "navbar__li--sublist">
+                                <a class = "navbar__link" href = "../../arithmetic/division/division.html">Division</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class = "navbar__li--second">
+                        <a class = "navbar__link" href = "../geometry.html">Geometria</a>
+                        <ul class = "navbar__list--decorator navbar__list--display">
+                            <li class = "navbar__li--sublist">
+                                <a class = "navbar__link" href = "../two-dimensional/two-dimensional.html">Bidimensional</a>
+                            </li>
+                            <li class = "navbar__li--sublist">
+                                <a class = "navbar__link" href = "./three-dimensional.html">Tridimensional</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main>
             <h1>Tridimensional</h1>
