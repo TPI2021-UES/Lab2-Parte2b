@@ -1,0 +1,12 @@
+.size-images {
+    width: 150px;
+    height: 150px;
+}
+thead,
+th,
+td,
+tr {
+    border: 1px solid;
+    text-align: center;
+}
+

@@ -4,22 +4,86 @@
         <title>
             Geometria
         </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <meta name = "keywords" content = "geometria, esfera, circulo, triangulo" />
-        <meta name = "description" content = "Geometrica basica" />
-        <link rel = "stylesheet" href = "../styles/index.css" />
+        <meta charset="UTF-8" />
+        <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+        <meta name="keywords" content="geometria, esfera, circulo, triangulo" />
+        <meta name="description" content="Geometrica basica" />
+        <link rel="stylesheet" href="../styles/navbar.css" />
+        <link rel="stylesheet" href="../styles/general-style.css" />
+        <link rel="stylesheet" href="../styles/main-tag-style.css" />
+    
+        <!-- Inicio de Fuente: Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <!-- FIN -->
     </head>
         
     <body>
-        <header>
-            <a href = "../index.html">Inicio</a>
+        <header class="header">
+            <nav class="navbar">
+                <ul class="navbar__list navbar__list--decorator">
+                    <li>
+                        <a class="navbar__link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="navbar__li--first">
+                        <a class="navbar__link" href="../arithmetic/arithmetic.html">Aritmetica</a>
+                        <ul class="navbar__list--decorator navbar__list--display">
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="../arithmetic/sum/sum.html">Suma</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="../arithmetic/subtraction/subtraction.html">Resta</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link"
+                                    href="../arithmetic/multiplication/multiplication.html">Multiplicacion</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="../arithmetic/division/division.html">Division</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__li--second">
+                        <a class="navbar__link" href="./geometry.html">Geometria</a>
+                        <ul class="navbar__list--decorator navbar__list--display">
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="./two-dimensional/two-dimensional.html">Bidimensional</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="./three-dimensional/three-dimensional.html">Tridimensional</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
+
         <main>
             <h1>Geometria</h1>
+            <br>
             <p>
-                La geometría es una parte de la matemática que se encarga de estudiar las propiedades y las medidas de una figura en un plano o en un espacio. Para representar distintos aspectos de la realidad, la geometría apela a los denominados sistemas formales o axiomáticos (compuestos por símbolos que se unen respetando reglas y que forman cadenas, las cuales también pueden vincularse entre sí) y a nociones como rectas, curvas y puntos, entre otras.
+                La geometría es una parte de la matemática que se encarga de estudiar las propiedades y las medidas de una
+                figura en un plano o en un espacio. Para representar distintos aspectos de la realidad, la geometría apela a
+                los denominados sistemas formales o axiomáticos (compuestos por símbolos que se unen respetando reglas y que
+                forman cadenas, las cuales también pueden vincularse entre sí) y a nociones como rectas, curvas y puntos,
+                entre otras.
             </p>
+            <br>
+            <dl>
+                <dt><b>Bidimensional</b></dt>
+                <br>
+                <dd><i>es un módulo geométrico de la proyección plana y física del universo donde vivimos. Tiene dos
+                        dimensiones, es decir que cuenta con ancho y largo, pero no con profundidad (que solo se utiliza en
+                        la tridimensionalidad). Los planos son bidimensionales, y solo pueden contener cuerpos
+                        unidimensionales o bidimensionales.</i></dd>
+                <br>
+                <dt><b>Tridimensional</b></dt>
+                <br>
+                <dd><i>Un objeto o ente es tridimensional si tiene tres dimensiones. Es decir, cada uno de sus puntos puede
+                        ser localizado especificando tres números dentro de un cierto rango. Ejemplo: anchura, altura y
+                        profundidad.</i></dd>
+            </dl>
         </main>
         <h2>Historia</h2>
         <p>
@@ -36,6 +100,9 @@
         <div  class = "up" id = "toUp">
             <img class = "up__icon"src = "../../images/icon-up-white.svg" alt = "icon for up" />
         </div>
+
+        <hr/>
+        <footer></footer>
     </body>
     <script src = "../js/index.js"></script>
 </html>

@@ -1,41 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>
-            Division
-        </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <link rel = "stylesheet" href = "../../styles/index.css" />
-    </head>
-    <body>
-        <header>
-            <a href = "../../index.html">Inicio</a>
-            <a href = "../arithmetic.html">Aritmetica</a>
-        </header>
-        <main>
-            <h1>Multiplicación</h1>
-            <p>
-                Multiplicación es un término con origen en el latín multiplicatio que permite nombrar el hecho y las consecuencias de multiplicarse o de multiplicar (incrementar el número de cosas que pertenecen a un mismo grupo).
 
-                Para la matemática, la multiplicación consiste en una operación de composición que requiere sumar reiteradamente un número de acuerdo a la cantidad de veces indicada por otro.
-            </p>
-            <h2>Propiedades de la Multiplicación</h2>
-            <dl>
-                <dt><b>Conmutativa</b></dt>
-                <dd><i>Esto quiere decir que el orden de los factores no altera el producto: 7 x 2 = 14 es igual que 2 x 7 = 14 (sumar 7 veces el número 2 genera el mismo resultado que sumar 2 veces el número 7).</i></dd>
-                <dt><b>Asociativa</b></dt>
-                <dd><i>Es posible agrupar los factores de cualquier forma sin alterar el producto</i></dd>
-                <dt><b>Distributiva</b></dt>
-                <dd><i>Si tomamos como ejemplo 2 x (4 + 3 – 5), se deberá extraer cada elemento encerrado entre paréntesis y multiplicarlo por 2, conservando su signo, de la siguiente manera: 2 x 4 + 2 x 3 – 2 x 5. Esto último también se puede expresar como una serie de sumas: 2 x 4 + 2 x 3 + 2 x (-5).</i></dd>
-            </dl>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ADtiPHucOKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </main>
-        <div  class = "up" id = "toUp">
-            <img class = "up__icon"src = "../../images/icon-up-white.svg" alt = "icon for up" />
+<head>
+    <title>
+        Division
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/general-style.css" />
+    <link rel="stylesheet" href="../../styles/main-tag-style.css" />
+    
+    <!-- Inicio de Fuente: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- FIN -->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list navbar__list--decorator">
+                <li>
+                    <a class="navbar__link" href="../../index.html">Inicio</a>
+                </li>
+                <li class="navbar__li--first">
+                    <a class="navbar__link" href="../arithmetic.html">Aritmetica</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../sum/sum.html">Suma</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../subtraction/subtraction.html">Resta</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../multiplication.html">Multiplicacion</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../division/division.html">Division</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__li--second">
+                    <a class="navbar__link" href="../../geometry/geometry.html">Geometria</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Multiplicación</h1>
+        <br>
+        <p>
+            Multiplicación es un término con origen en el latín multiplicatio que permite nombrar el hecho y las
+            consecuencias de multiplicarse o de multiplicar (incrementar el número de cosas que pertenecen a un mismo
+            grupo).
+
+            Para la matemática, la multiplicación consiste en una operación de composición que requiere sumar
+            reiteradamente un número de acuerdo a la cantidad de veces indicada por otro.
+        </p>
+        <br>
+        <h2>Propiedades de la Multiplicación</h2>
+        <br>
+        <dl>
+            <dt><b>Conmutativa</b></dt>
+            <dd><i>Esto quiere decir que el orden de los factores no altera el producto: 7 x 2 = 14 es igual que 2 x 7 =
+                    14 (sumar 7 veces el número 2 genera el mismo resultado que sumar 2 veces el número 7).</i></dd>
+            <dt><b>Asociativa</b></dt>
+            <dd><i>Es posible agrupar los factores de cualquier forma sin alterar el producto</i></dd>
+            <dt><b>Distributiva</b></dt>
+            <dd><i>Si tomamos como ejemplo 2 x (4 + 3 – 5), se deberá extraer cada elemento encerrado entre paréntesis y
+                    multiplicarlo por 2, conservando su signo, de la siguiente manera: 2 x 4 + 2 x 3 – 2 x 5. Esto
+                    último también se puede expresar como una serie de sumas: 2 x 4 + 2 x 3 + 2 x (-5).</i></dd>
+        </dl>
+        <br>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ADtiPHucOKg"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-    </body>
-    <script src = "../../js/index.js"></script>
+    </main>
+    <div class="up" id="toUp">
+        <img class="up__icon" src="../../images/icon-up-white.svg" alt="icon for up" />
+    </div>
+</body>
+<script src="../../js/index.js"></script>
+
 </html>

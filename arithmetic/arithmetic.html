@@ -4,34 +4,104 @@
         <title>
             Aritmetica
         </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <meta name = "keywords" content = "operaciones, suma, resta, multiplicacion" />
-        <meta name = "description" content = "Aritmetica basica" />
-        <link rel="stylesheet" href="../styles/arithmetic.css">
-        <link rel="shortcut icon" href="../images/icono.png" type="image">
-
-        <link rel = "stylesheet" href = "../styles/index.css" />
-    </head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+        <meta name="keywords" content="operaciones, suma, resta, multiplicacion" />
+        <meta name="description" content="Aritmetica basica" />
+        <link rel="stylesheet" href="../styles/navbar.css" />
+        
+        <link rel="stylesheet" href="../styles/general-style.css" />
+        <link rel="stylesheet" href="../styles/main-tag-style.css" />
+        
+        <!-- Inicio de Fuente: Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <!-- FIN -->
+    </head>    
         
     <body>
-        <header>
-            <img src="../images/logo.png" alt="Logo">
-            <a href = "../index.html">Inicio</a>
+        <header class="header">
+            <nav class="navbar">
+                <ul class="navbar__list navbar__list--decorator">
+                    <li>
+                        <a class="navbar__link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="navbar__li--first">
+                        <a class="navbar__link" href="./arithmetic.html">Aritmetica</a>
+                        <ul class="navbar__list--decorator navbar__list--display">
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="./sum/sum.html">Suma</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="./subtraction/subtraction.html">Resta</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="./multiplication/multiplication.html">Multiplicacion</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link" href="./division/division.html">Division</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__li--second">
+                        <a class="navbar__link" href="../geometry/geometry.html">Geometria</a>
+                        <ul class="navbar__list--decorator navbar__list--display">
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link"
+                                    href="../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
+                            </li>
+                            <li class="navbar__li--sublist">
+                                <a class="navbar__link"
+                                    href="../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
+
         <main>
-            <h1>Aritmética</h1>
+            <h1>Aritmetica</h1>
+            <br>
             <p>
-                La aritmética es, entonces, la disciplina que se enfoca en las sumas, restas, multiplicaciones y divisiones que se pueden hacer entre los números existentes. Así, se trata del área más básica de las matemáticas.
+                La aritmética es, entonces, la disciplina que se enfoca en las sumas, restas, multiplicaciones y divisiones
+                que se pueden hacer entre los números existentes. Así, se trata del área más básica de las matemáticas.
             </p>
+            <br>
             <p>
-                Originalmente, la Aritmética se desarrolló de manera formal en la Antigua Grecia, con el refinamiento del rigor matemático y las demostraciones, y su extensión a las distintas disciplinas de las Ciencias Naturales. En la actualidad, puede referirse a la Aritmética Elemental, enfocada a la enseñanza de la Matemática Básica;
-                también al conjunto que reúne el Cálculo Aritmético y las Operaciones Matemáticas, específicamente, las cuatro Operaciones Básicas aplicadas, ya sea a números (números naturales, números enteros, números fraccionarios y números decimales, etc.) como a entidades matemáticas más abstractas (matrices, operadores, etc.); también a la así llamada alta aritmética,3​ mejor conocida como Teoría de Números.
+                La aritmética se fue desarrollando con el tiempo para ampliar su campo de estudio con otras operaciones como
+                la potenciación o la raíz cuadrada. Asimismo, pasó a operar no solo con números enteros, sino también con
+                aquellas que tienen decimales, números negativos y, en general, números naturales.
             </p>
-            <p>
-                La aritmética se fue desarrollando con el tiempo para ampliar su campo de estudio con otras operaciones como la potenciación o la raíz cuadrada. Asimismo, pasó a operar no solo con números enteros, sino también con aquellas que tienen decimales, números negativos y, en general, números naturales.
-            </p>
+            <br>
+            <dl>
+                <dt><b>Suma</b></dt>
+                <dd>
+                    <i>
+                        La suma o adición es una de las cuatro operaciones básicas de la aritmética que consiste en la
+                        adición de dos o más elementos para llegar a un resultado final donde todo se incluye.
+                    </i>
+                </dd>
+                <br>
+                <dt><b>Resta</b></dt>
+                <dd><i>La resta, también conocida como sustracción, es una operación que consiste en sacar, recortar,
+                        empequeñecer, reducir o separar algo de un todo. </i></dd>
+                <br>
+                <dt><b>Multiplicacion</b></dt>
+                <br>
+                <dd><i>Multiplicación es una operación matemática que consiste en sumar un número tantas veces como lo
+                        indique el otro número que compone la operación.</i></dd>
+                <br>
+                <dt><b>Division</b></dt>
+                <br>
+                <dd><i>La división es aquella operación matemática mediante la cual se trata de descomponer un número, al
+                        que denominaremos dividendo, en tantas partes como así lo indique otro número, al que llamaremos
+                        divisor.</i></dd>
+            </dl>
         </main>
+
+
         <h2>Historia</h2>
         <p>
             Los orígenes de la aritmética se pueden rastrear hasta los comienzos de la matemática misma, y de la ciencia en general. Los registros más antiguos datan de la Edad de Piedra: huesos, palos, piedras talladas y escarbadas con muescas, presumiblemente con fines de conteo, de representación numérica y calendarios.
@@ -75,6 +145,7 @@
                 </ul>
             </article>
         </aside>
+
         <div class="tipos">
             <h3 class="ejemplos">Ejemplos de numeración en distintas culturas</h3>
             <img src="../images/numeracion-china.png" alt="">
@@ -82,12 +153,14 @@
             <img src="../images/numeracion-maya.png" alt="">
             <img src="../images/numeracion-griega.jpg" alt="">
         </div>
-        
 
-        <div  class = "up" id = "toUp">
-            <img class = "up__icon"src = "../images/icon-up-white.svg" alt = "icon for up" />
+        <div class="up" id="toUp">
+            <img class="up__icon" src="../images/icon-up-white.svg" alt="icon for up" />
         </div>
-    </body>
 
-    <script src = "../js/index.js"></script>
+        <hr/>
+        <footer></footer>
+    <body>
+    <script src="../js/index.js"></script>
+
 </html>

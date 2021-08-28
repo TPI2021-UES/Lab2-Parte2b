@@ -1,0 +1,75 @@
+/* Styles for Navbar */
+.navbar {
+    margin-top: 0;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 20px;
+    background-color: #000;
+}
+.navbar__list {
+    display: flex;
+    flex-direction: row;
+}
+.navbar__list--decorator {
+    list-style: none;
+}
+.navbar__list--display {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #bd93f9;
+    display: none;
+}
+.navbar__link {
+    text-decoration: none;
+    padding: 12px 40px;
+    display: block;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar__link:hover {
+    background-color: black;
+    color: white;
+}
+
+.navbar__li--sublist {
+    width: 230px;
+}
+
+.navbar__li--first:hover .navbar__list--display {
+    display: flex;
+    z-index: 10;
+}
+
+.navbar__li--second:hover .navbar__list--display {
+    display: flex;
+    z-index: 10;
+}
+
+/* Style for botton up */
+
+.up {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.up__icon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 4.5px;
+    left: 4.5px;
+    cursor: pointer;
+}

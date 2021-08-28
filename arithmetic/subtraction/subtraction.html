@@ -1,38 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>
-            Resta
-        </title>
-        <meta charset = "UTF-8" />
-        <meta name = "author" content = "Jason Saul Martinez Argueta" />
-        <link rel = "stylesheet" href = "../../styles/index.css" />
-    </head>
-    <body>
-        <header>
-            <a href = "../../index.html">Inicio</a>
-            <a href = "../arithmetic.html">Aritmetica</a>
-        </header>
-        <main>
-            <h1>Resta</h1>
-            <p>
-                La resta (también conocida como sustracción) es una de las cuatro operaciones básicas de la aritmética que consiste en la diferencia entre una cierta cantidad con respecto a otra. La palabra resta deriva del latín “restis” y significa “acuerda”.
-            </p>
-            <h2>Propiedades de la Resta</h2>
-            <dl>
-                <dt><b>Sustraendo</b></dt>
-                <dd><i>Esta propiedad nos indica que al aumentar el valor del sustraendo el resultado(diferencia) disminuye, por lo tanto, al disminuir el valor del sustraendo el resultado(diferencia) aumenta.</i></dd>
-                <dt><b>Uniformidad</b></dt>
-                <dd><i>Al variar proporcionalmente el minuendo y el sustraendo la diferencia se mantendrá.</i></dd>
-            </dl>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BWK6NLFQYzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </main>
-        <div  class = "up" id = "toUp">
-            <img class = "up__icon"src = "../../images/icon-up-white.svg" alt = "icon for up" />
+
+<head>
+    <title>
+        Resta
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jason Saul Martinez Argueta, Josué Andrés Hernández Martínez" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/general-style.css" />
+    <link rel="stylesheet" href="../../styles/main-tag-style.css" />
+
+    <!-- Inicio de Fuente: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- FIN -->
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list navbar__list--decorator">
+                <li>
+                    <a class="navbar__link" href="../../index.html">Inicio</a>
+                </li>
+                <li class="navbar__li--first">
+                    <a class="navbar__link" href="../arithmetic.html">Aritmetica</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../sum/sum.html">Suma</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="./subtraction.html">Resta</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../multiplication/multiplication.html">Multiplicacion</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link" href="../division/division.html">Division</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__li--second">
+                    <a class="navbar__link" href="../../geometry/geometry.html">Geometria</a>
+                    <ul class="navbar__list--decorator navbar__list--display">
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/two-dimensional/two-dimensional.html">Bidimensional</a>
+                        </li>
+                        <li class="navbar__li--sublist">
+                            <a class="navbar__link"
+                                href="../../geometry/three-dimensional/three-dimensional.html">Tridimensional</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Resta</h1>
+        <br>
+        <p>
+            La resta (también conocida como sustracción) es una de las cuatro operaciones básicas de la aritmética que
+            consiste en la diferencia entre una cierta cantidad con respecto a otra. La palabra resta deriva del latín
+            “restis” y significa “acuerda”.
+        </p>
+        <br>
+        <h2>Propiedades de la Resta</h2>
+        <br>
+        <dl>
+            <dt><b>Sustraendo</b></dt>
+            <dd><i>Esta propiedad nos indica que al aumentar el valor del sustraendo el resultado(diferencia) disminuye,
+                    por lo tanto, al disminuir el valor del sustraendo el resultado(diferencia) aumenta.</i></dd>
+            <dt><b>Uniformidad</b></dt>
+            <dd><i>Al variar proporcionalmente el minuendo y el sustraendo la diferencia se mantendrá.</i></dd>
+        </dl>
+        <br>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BWK6NLFQYzA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
-    </body>
-    <script src = "../../js/index.js"></script>
+    </main>
+    <div class="up" id="toUp">
+        <img class="up__icon" src="../../images/icon-up-white.svg" alt="icon for up" />
+    </div>
+</body>
+<script src="../../js/index.js"></script>
+
 </html>
