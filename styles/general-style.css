@@ -6,4 +6,27 @@
 
 body {
     position: absolute;
+    background-color: rgb(158, 165, 165);
+}
+
+body .up {
+    background-image: url(../images/icono.png);
+    margin: 5px;
+    padding: 10px;
+}
+
+.content-middle{
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(213, 213, 216);
+    text-align: justify;
+    height: auto;
+    width: 1150px; 
+}
+
+footer{
+    height: 100px;
+    margin: 50px 0px 0px 0px;
+    padding: 20px;
+    background-color: rgb(76, 173, 128);
 }

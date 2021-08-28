@@ -1,0 +1,50 @@
+.images img{
+    display: row;
+    border: 5px solid black;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    height: auto;
+    width: 200px;
+    margin: -450px 20px 2px 100px;
+    padding: 30px;
+    background-color: rgba(89, 110, 57, 0.678);
+    border-radius: 0px 20px 20px 20px;
+}
+
+aside ul{
+    padding: 5px;
+    margin: 30px 0px 0px 0px;   
+    border-radius: 20px;
+    background-color: rgb(158, 165, 165);
+    list-style: none;
+}
+
+aside ul li{
+    margin: 20px 0px 20px 0px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+aside ul li a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.content-middle{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(213, 213, 216);
+    text-align: justify;
+    height: auto;
+    width: 900px; 
+}
