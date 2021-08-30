@@ -60,7 +60,7 @@ aside{
     border-radius: 0px 20px 20px 20px;
 }
 
-aside .lista-de-apoyo{
+aside article .lista-de-apoyo{
     padding: 5px;
     margin: 30px 0px 0px 0px;   
     border-radius: 20px;
@@ -68,16 +68,16 @@ aside .lista-de-apoyo{
     list-style: none;
 }
 
-aside .lista-de-apoyo li{
+aside article .lista-de-apoyo li{
     margin: 20px 0px 20px 0px;
 }
 
-aside .lista-de-apoyo li .alternativas{
+aside article .lista-de-apoyo li .alternativas{
     text-decoration: none;
     color: black;
 }
 
-aside .lista-de-apoyo li .alternativas:hover{
+aside article .lista-de-apoyo li .alternativas:hover{
     text-decoration: none;
     color: blue;
 }
