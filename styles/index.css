@@ -4,9 +4,8 @@
     height: auto;
     width: 750px;
     background-color: rgb(213, 213, 216);
-    border: #000 solid 1px;
     box-shadow:  8px 8px 4px rgb(50, 65, 58);
-    border-radius: 0px 0px 0px 50px;
+    border-radius: 50px 0px 50px 50px;
 }
 
 .Card img{
